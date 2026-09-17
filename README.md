@@ -30,9 +30,17 @@
 
 ---
 
-### 视频
+### 演示视频
 
-<video src="assets/video.mp4"></video>
+<p align="center">
+  <a href="assets/video.mp4">
+    <img src="assets/video_cover.png" width="70%">
+  </a>
+</p>
+
+<p align="center">
+  点击图片观看演示视频
+</p>
 
 ## 2. 系统总体架构
 
