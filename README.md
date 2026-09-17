@@ -30,6 +30,10 @@
 
 ---
 
+### 视频
+
+<video src="assets/video.mp4"></video>
+
 ## 2. 系统总体架构
 
 系统可以分为 **感知层、处理层和输出层** 三部分：
@@ -116,7 +120,9 @@ A7670 通过 UART 与 STM32 通信，由 AT 指令控制短信发送。跌倒事
 
 给其他硬件模块提供5V或者3.3V供电
 
-<img src="C:\Users\27351\Desktop\Smart-Cane-GitHub\Smart-Cane-GitHub\assets\battery.jpg" alt="battery" style="zoom:33%;" />
+<p align="center">
+  <img src="assets/battery.jpg" alt="battery" width="35%">
+</p>
 
 
 
@@ -374,7 +380,7 @@ OLED 用于显示系统运行状态以及传感器结果，包括 GPS、距离�
 
 6. 修改app_freertos.c中第583行的求救电话
 
-   <img src="C:\Users\27351\Desktop\SmartStick-GitHub\assets\code.png" alt="code" style="zoom:35%;" />
+   <img src="assets/code.png" alt="code" style="zoom:35%;" />
 
 7. 编译并烧录程序；
 
@@ -419,7 +425,6 @@ OLED 用于显示系统运行状态以及传感器结果，包括 GPS、距离�
 
 本仓库主要用于：
 
-- 本科毕业设计成果展示；
 - STM32 / FreeRTOS 学习交流；
 - 多传感器嵌入式系统开发参考；
 - 智能辅助设备原型研究。
