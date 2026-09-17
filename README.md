@@ -116,7 +116,7 @@ A7670 通过 UART 与 STM32 通信，由 AT 指令控制短信发送。跌倒事
 
 给其他硬件模块提供5V或者3.3V供电
 
-<img src="assets/battery.jpg" alt="battery" style="zoom:33%;" />
+<img src="assets/battery.jpg" alt="battery" width="33%">
 
 
 
